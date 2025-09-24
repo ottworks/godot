@@ -57,8 +57,9 @@ private:
 
 	Ref<TextLine> text_buf;
 	bool changing_group = false;
-	bool is_hovering = false;
-	mutable Vector2 title_minimum_size;
+	bool is_hovering = false;\
+	bool is_click_held = false
+	mutable Vector2 title_minimum_size;;
 
 	LocalVector<Control *> title_controls;
 
